@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>rating componets</title>
+</head>
+<body>
+    <!-- submit state -->
+    <div class="container">
+        <i class="fa fa-star"></i>
+        <h1>how did we do?</h1>
+        <p>please let us know how we did with your support request. all feedback is appreciated to help us improve our offering</p>
+        <ul>
+            <li> <button class="btn-list">1</button></li>
+            <li> <button class="btn-list">2</button></li>
+            <li> <button class="btn-list">3</button></li>
+            <li> <button class="btn-list">4</button></li>
+            <li> <button class="btn-list">5</button></li>
+        </ul>
+        <button class="btn" id="submit">submit</button>
+    </div>
+
+    <!-- thank you state -->
+    <div class="thank-you hidden">
+     <p class="text-gray">you selected <span id="rating"> </span> out of 5</p>
+     <h2>thank you</h2>
+     <p> we appreciate you taking the time to give a rating.if you ever need more support,don't hesitate to  get in touch</p>
+     <button class="btn" id="rate-again">rate again</button>
+    </div>
+  
+    <script src="./action.js"></script>
+</body>
+</html>

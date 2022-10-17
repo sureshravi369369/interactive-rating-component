@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    text-transform: capitalize;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.945);
+    color: aliceblue;
+}
+
+
+.container{
+    width: 40%;
+    height: 40%;
+    border: solid white;
+    border-radius: 15px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    background-color: rgb(32,39,40);
+}
+
+.container i{
+    color: rgb(255, 119, 0);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background-color:hsl(213, 20%, 22%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.container p{
+    font-size: .8rem;
+    margin-top: 10px;
+    color: gray;
+}
+
+.container ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left:10px ;
+}
+
+.container ul li{
+    list-style: none;
+}
+
+.container ul li button{
+    margin-top: 10px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: hsl(213, 20%, 22%);
+}
+
+.container ul li button:hover{
+       background-color: rgb(255, 119, 0);
+}
+
+.container ul li button:focus{
+    background-color: hsl(217,12%,63%);
+}
+
+.btn{
+    background-color: rgb(255, 119, 0);
+    margin:10px 0 ;
+    width: 100%;
+    padding: 3px;
+    border-radius:15px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: rgb(255, 119, 0);
+    font-weight: 500;
+}
+
+/* thank you state style */
+.thank-you{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    border: solid white;
+    border-radius: 15px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    background-color: rgb(32,39,40);
+}
+
+.thank-you .text-gray{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 30px;
+    color:rgb(255, 119, 0);
+    font-size: .8rem;
+    padding: 5px 8px;
+}
+
+.thank-you h2{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.thank-you p{
+    font-size: .7rem;
+    margin-top: 10px;
+    color: gray;
+}
+
+.hidden{
+    display: none;
+}
+@media screen and (max-width:960px) {
+
+    .container{
+        width: 400px;
+    }
+    
+}
